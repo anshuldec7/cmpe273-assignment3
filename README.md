@@ -20,3 +20,154 @@
     -  docker run -detach --name servertest2 --link db2:mysql -p 5002:5002  server2
     -  docker run -detach --name servertest3 --link db3:mysql -p 5003:5003  server3
  - Now the app servers are up and running execute httpclient.py to test the desired output.
+
+localhost:5002
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 61, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5003
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 62, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5001
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 63, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5001
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 64, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5001
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 65, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5003
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 66, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5002
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 67, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5002
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 68, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5001
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 69, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5002
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 70, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
