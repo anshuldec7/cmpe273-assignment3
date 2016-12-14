@@ -21,154 +21,143 @@
     -  docker run -detach --name servertest3 --link db3:mysql -p 5003:5003  server3
  - Now the app servers are up and running execute httpclient.py to test the desired output.
 
+##Post Output
 localhost:5002
-/v1/expenses
 {
-  "category": "training", 
+  "category": "office supplies", 
   "decision_date": "", 
-  "description": "iPhone for training", 
+  "description": "iPad for office use", 
   "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
+  "estimated_costs": "700", 
   "id": 1, 
   "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
+  "name": "Foo 1", 
   "status": "Pending", 
-  "submit_date": "09-08-2016"
+  "submit_date": "12-10-2016"
 }
 
 localhost:5001
-/v1/expenses
 {
-  "category": "training", 
+  "category": "office supplies", 
   "decision_date": "", 
-  "description": "iPhone for training", 
+  "description": "iPad for office use", 
   "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
+  "estimated_costs": "700", 
   "id": 2, 
   "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
+  "name": "Foo 1", 
   "status": "Pending", 
-  "submit_date": "09-08-2016"
+  "submit_date": "12-10-2016"
 }
 
 localhost:5001
-/v1/expenses
 {
-  "category": "training", 
+  "category": "office supplies", 
   "decision_date": "", 
-  "description": "iPhone for training", 
+  "description": "iPad for office use", 
   "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
+  "estimated_costs": "700", 
   "id": 3, 
   "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
+  "name": "Foo 1", 
   "status": "Pending", 
-  "submit_date": "09-08-2016"
+  "submit_date": "12-10-2016"
 }
 
 localhost:5002
-/v1/expenses
 {
-  "category": "training", 
+  "category": "office supplies", 
   "decision_date": "", 
-  "description": "iPhone for training", 
+  "description": "iPad for office use", 
   "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
+  "estimated_costs": "700", 
   "id": 4, 
   "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
+  "name": "Foo 1", 
   "status": "Pending", 
-  "submit_date": "09-08-2016"
+  "submit_date": "12-10-2016"
 }
 
 localhost:5001
-/v1/expenses
 {
-  "category": "training", 
+  "category": "office supplies", 
   "decision_date": "", 
-  "description": "iPhone for training", 
+  "description": "iPad for office use", 
   "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
+  "estimated_costs": "700", 
   "id": 5, 
   "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
+  "name": "Foo 1", 
   "status": "Pending", 
-  "submit_date": "09-08-2016"
+  "submit_date": "12-10-2016"
 }
 
 localhost:5001
-/v1/expenses
 {
-  "category": "training", 
+  "category": "office supplies", 
   "decision_date": "", 
-  "description": "iPhone for training", 
+  "description": "iPad for office use", 
   "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
+  "estimated_costs": "700", 
   "id": 6, 
   "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
+  "name": "Foo 1", 
   "status": "Pending", 
-  "submit_date": "09-08-2016"
+  "submit_date": "12-10-2016"
 }
 
 localhost:5002
-/v1/expenses
 {
-  "category": "training", 
+  "category": "office supplies", 
   "decision_date": "", 
-  "description": "iPhone for training", 
+  "description": "iPad for office use", 
   "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
+  "estimated_costs": "700", 
   "id": 7, 
   "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
+  "name": "Foo 1", 
   "status": "Pending", 
-  "submit_date": "09-08-2016"
+  "submit_date": "12-10-2016"
 }
 
 localhost:5001
-/v1/expenses
 {
-  "category": "training", 
+  "category": "office supplies", 
   "decision_date": "", 
-  "description": "iPhone for training", 
+  "description": "iPad for office use", 
   "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
+  "estimated_costs": "700", 
   "id": 8, 
   "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
+  "name": "Foo 1", 
   "status": "Pending", 
-  "submit_date": "09-08-2016"
+  "submit_date": "12-10-2016"
 }
 
 localhost:5003
-/v1/expenses
 {
-  "category": "training", 
+  "category": "office supplies", 
   "decision_date": "", 
-  "description": "iPhone for training", 
+  "description": "iPad for office use", 
   "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
+  "estimated_costs": "700", 
   "id": 9, 
   "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
+  "name": "Foo 1", 
   "status": "Pending", 
-  "submit_date": "09-08-2016"
+  "submit_date": "12-10-2016"
 }
 
 localhost:5001
-/v1/expenses
 {
-  "category": "training", 
+  "category": "office supplies", 
   "decision_date": "", 
-  "description": "iPhone for training", 
+  "description": "iPad for office use", 
   "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
+  "estimated_costs": "700", 
   "id": 10, 
   "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
+  "name": "Foo 1", 
   "status": "Pending", 
-  "submit_date": "09-08-2016"
+  "submit_date": "12-10-2016"
 }
-
-
