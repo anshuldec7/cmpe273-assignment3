@@ -21,7 +21,7 @@
     -  docker run -detach --name servertest3 --link db3:mysql -p 5003:5003  server3
  - Now the app servers are up and running execute httpclient.py to test the desired output.
 
-##Post Output
+##Get Output
 localhost:5002
 {
   "category": "office supplies", 
