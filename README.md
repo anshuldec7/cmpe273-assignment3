@@ -13,3 +13,9 @@
     -  mkdir /Users/\<username>/mysqlDocker3
  - Create/Run MySQL docker images fetched from the Docker Hub
     -  docker run --detach -p 3301:3306 --name=db1 --env="MYSQL_ROOT_PASSWORD=\<myapssword>" -v /Users/\<username>/mysqlDocker1:/var/lib/mysql mysql
+    -  docker run --detach -p 3302:3306 --name=db2 --env="MYSQL_ROOT_PASSWORD=\<myapssword>" -v /Users/\<username>/mysqlDocker2:/var/lib/mysql mysql
+    -  docker run --detach -p 3303:3306 --name=db3 --env="MYSQL_ROOT_PASSWORD=\<myapssword>" -v /Users/\<username>/mysqlDocker3:/var/lib/mysql mysql
+  - Excecuting & Linking Application to the MySQL DB instances
+    -  docker run -detach --name servertest1 --link db1:mysql -p 5001:5001  server1
+    -  docker run -detach --name servertest2 --link db2:mysql -p 5002:5002  server2
+    -  docker run -detach --name servertest3 --link db3:mysql -p 5003:5003  server3
