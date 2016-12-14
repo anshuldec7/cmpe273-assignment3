@@ -29,7 +29,112 @@ localhost:5002
   "description": "iPhone for training", 
   "email": "foo1@bar.com", 
   "estimated_costs": "6760", 
-  "id": 61, 
+  "id": 1, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5001
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 2, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5001
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 3, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5002
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 4, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5001
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 5, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5001
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 6, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5002
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 7, 
+  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
+  "name": "Foo Bar", 
+  "status": "Pending", 
+  "submit_date": "09-08-2016"
+}
+
+localhost:5001
+/v1/expenses
+{
+  "category": "training", 
+  "decision_date": "", 
+  "description": "iPhone for training", 
+  "email": "foo1@bar.com", 
+  "estimated_costs": "6760", 
+  "id": 8, 
   "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
   "name": "Foo Bar", 
   "status": "Pending", 
@@ -44,7 +149,7 @@ localhost:5003
   "description": "iPhone for training", 
   "email": "foo1@bar.com", 
   "estimated_costs": "6760", 
-  "id": 62, 
+  "id": 9, 
   "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
   "name": "Foo Bar", 
   "status": "Pending", 
@@ -59,115 +164,11 @@ localhost:5001
   "description": "iPhone for training", 
   "email": "foo1@bar.com", 
   "estimated_costs": "6760", 
-  "id": 63, 
+  "id": 10, 
   "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
   "name": "Foo Bar", 
   "status": "Pending", 
   "submit_date": "09-08-2016"
 }
 
-localhost:5001
-/v1/expenses
-{
-  "category": "training", 
-  "decision_date": "", 
-  "description": "iPhone for training", 
-  "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
-  "id": 64, 
-  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
-  "status": "Pending", 
-  "submit_date": "09-08-2016"
-}
-
-localhost:5001
-/v1/expenses
-{
-  "category": "training", 
-  "decision_date": "", 
-  "description": "iPhone for training", 
-  "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
-  "id": 65, 
-  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
-  "status": "Pending", 
-  "submit_date": "09-08-2016"
-}
-
-localhost:5003
-/v1/expenses
-{
-  "category": "training", 
-  "decision_date": "", 
-  "description": "iPhone for training", 
-  "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
-  "id": 66, 
-  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
-  "status": "Pending", 
-  "submit_date": "09-08-2016"
-}
-
-localhost:5002
-/v1/expenses
-{
-  "category": "training", 
-  "decision_date": "", 
-  "description": "iPhone for training", 
-  "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
-  "id": 67, 
-  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
-  "status": "Pending", 
-  "submit_date": "09-08-2016"
-}
-
-localhost:5002
-/v1/expenses
-{
-  "category": "training", 
-  "decision_date": "", 
-  "description": "iPhone for training", 
-  "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
-  "id": 68, 
-  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
-  "status": "Pending", 
-  "submit_date": "09-08-2016"
-}
-
-localhost:5001
-/v1/expenses
-{
-  "category": "training", 
-  "decision_date": "", 
-  "description": "iPhone for training", 
-  "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
-  "id": 69, 
-  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
-  "status": "Pending", 
-  "submit_date": "09-08-2016"
-}
-
-localhost:5002
-/v1/expenses
-{
-  "category": "training", 
-  "decision_date": "", 
-  "description": "iPhone for training", 
-  "email": "foo1@bar.com", 
-  "estimated_costs": "6760", 
-  "id": 70, 
-  "link": "http://www.apple.com/shop/buy-ipad/ipad-pro", 
-  "name": "Foo Bar", 
-  "status": "Pending", 
-  "submit_date": "09-08-2016"
-}
 
