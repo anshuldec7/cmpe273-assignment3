@@ -19,3 +19,4 @@
     -  docker run -detach --name servertest1 --link db1:mysql -p 5001:5001  server1
     -  docker run -detach --name servertest2 --link db2:mysql -p 5002:5002  server2
     -  docker run -detach --name servertest3 --link db3:mysql -p 5003:5003  server3
+ - Now the app servers are up and running execute httpclient.py to test the desired output.
